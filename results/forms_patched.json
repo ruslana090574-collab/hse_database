@@ -1,0 +1,6 @@
+{
+  "forms": 14,
+  "masked_inputs": true,
+  "historical_list_prices": "Separate persisted AgreedPrice; historical label omits current price",
+  "date_format": "DD/MM/YYYY"
+}

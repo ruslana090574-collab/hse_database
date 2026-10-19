@@ -1,0 +1,8 @@
+{
+  "native_import": "HSE_INSURANCE / 09_Расчёт_стоимости_полисов",
+  "range": "ПолисыИзБазы",
+  "rows": 13,
+  "current_year_policies": 8,
+  "current_year_premium_rub": 2639.0,
+  "reopened_native_refresh_verified": true
+}

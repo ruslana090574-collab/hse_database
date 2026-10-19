@@ -1,0 +1,126 @@
+[
+  {
+    "check": "8 clients persisted in reopened .odb",
+    "status": "PASS"
+  },
+  {
+    "check": "13 policies persisted in reopened .odb",
+    "status": "PASS"
+  },
+  {
+    "check": "8 current-year policies",
+    "status": "PASS"
+  },
+  {
+    "check": "LEFT JOIN includes both clients with old policies only and clients with no policies",
+    "status": "PASS"
+  },
+  {
+    "check": "NOT EXISTS returns all 3 correct zero-current-year clients",
+    "status": "PASS"
+  },
+  {
+    "check": "Both agents tied for first place are returned; agent with no sales is not a leader",
+    "status": "PASS"
+  },
+  {
+    "check": "All 13 premium amounts match independent Decimal calculations",
+    "status": "PASS"
+  },
+  {
+    "check": "Historical premiums and cover values stay unchanged after reference-data changes",
+    "status": "PASS"
+  },
+  {
+    "check": "Invalid country code rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Lower-case currency code rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Empty currency name rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Duplicate primary key rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Gender code/name/symbol mismatch rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Negative service price rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Zero cover rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Cyrillic client name rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Passport with non-digit rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Underage client rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Expired passport rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Future passport issue date rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Orphan foreign key rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Policy shorter than seven days rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Policy start before issue date rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Passport validity covering entire trip enforced",
+    "status": "PASS"
+  },
+  {
+    "check": "Agent contract validity enforced",
+    "status": "PASS"
+  },
+  {
+    "check": "Duplicate service within policy rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Deleting referenced client rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "Changing date of policy with services rejected",
+    "status": "PASS"
+  },
+  {
+    "check": "18th birthday must precede the policy issue date",
+    "status": "PASS"
+  },
+  {
+    "check": "Deleting a policy cascades to its services; rollback restores demo data",
+    "status": "PASS"
+  },
+  {
+    "check": "All 20 queries run through Base RowSet, including bound date parameters",
+    "status": "PASS"
+  }
+]

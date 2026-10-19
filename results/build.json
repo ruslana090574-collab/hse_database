@@ -1,0 +1,12 @@
+{
+  "year": 2026,
+  "tables": 12,
+  "views": 2,
+  "queries": 20,
+  "forms": 14,
+  "reports": 1,
+  "database": "Шагеева_РР_Страховая_компания.odb",
+  "engine": "Firebird Embedded 3.0",
+  "target": "LibreOffice 26.8.1 / macOS",
+  "checked": "LibreOffice 25.2.3.2 / Linux"
+}

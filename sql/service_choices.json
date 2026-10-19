@@ -1,0 +1,3 @@
+{
+  "view": "SELECT u.\"ServiceCode\",u.\"ServiceName\",k.\"CategoryName\",s.\"BasePrice\",u.\"ServiceName\"||' / '||k.\"CategoryName\"||' / '||CAST(s.\"BasePrice\" AS VARCHAR(20))||' руб./день' AS \"ServiceLabel\" FROM \"Service\" u JOIN \"ServiceCategory\" k ON k.\"CategoryCode\"=u.\"CategoryCode\" JOIN \"ServicePrice\" s ON s.\"ServiceCode\"=u.\"ServiceCode\" WHERE s.\"PriceDate\"=(SELECT MAX(t.\"PriceDate\") FROM \"ServicePrice\" t WHERE t.\"ServiceCode\"=u.\"ServiceCode\" AND t.\"PriceDate\"<=CURRENT_DATE)"
+}

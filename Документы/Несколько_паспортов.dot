@@ -1,0 +1,25 @@
+digraph Passports { graph [rankdir=LR,bgcolor="white",pad=.3]; node [shape=box,style="rounded,filled",fillcolor="#eef3f8",fontname="DejaVu Sans",fontsize=11]; edge [fontname="DejaVu Sans",fontsize=10];
+ClientPerson [label="Клиент
+ClientID (PK)
+ФИО, дата рождения, код пола"];
+TravelPassport [label="Заграничный паспорт
+PassportNo (PK)
+ClientID (FK)
+дата выдачи, действителен до"];
+PolicyV2 [label="Полис
+PolicyID (PK)
+PassportNo (FK)
+ContractNo (FK)
+даты, страна, зафиксированные условия"];
+AgentPerson [label="Агент
+AgentID (PK)
+ФИО, статус"];
+AgentPassport [label="Паспорт агента
+AgentPassportID (PK)
+AgentID (FK)
+номер, выдан, срок действия"];
+ContractV2 [label="Договор агента
+ContractNo (PK)
+AgentPassportID (FK)
+сроки, комиссия, банковские реквизиты"];
+ClientPerson -> TravelPassport [label="1 : N"]; TravelPassport -> PolicyV2 [label="1 : N"]; AgentPerson -> AgentPassport [label="1 : N"]; AgentPassport -> ContractV2 [label="1 : N"]; ContractV2 -> PolicyV2 [label="1 : N"]; }
