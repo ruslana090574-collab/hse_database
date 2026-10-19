@@ -1,0 +1,42 @@
+{
+  "pdf_pages": 17,
+  "paragraphs_checked": 799,
+  "figures": [
+    [
+      4,
+      2
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      12,
+      1
+    ]
+  ],
+  "table_data_preserved": true,
+  "relation_layout_preserved": true,
+  "saved_queries_executed": 20,
+  "checks_passed": 31,
+  "average_premium": "329.88",
+  "scope": "Этап 1: база данных и запросы",
+  "runtime_validation_environment": "LibreOffice 25.2.3.2 / Linux; Firebird Embedded 3.0",
+  "screenshots_environment": "macOS, original user-provided PNG files",
+  "database_change": "Only query definitions 13 and 14: explicit intermediate DECIMAL(18,4) and ROUND(...,2)",
+  "archive_sha256": "8c061bf2d51a18667b77f26e1b0732b9f7a7a5c8d5153d6621eddf9a590cef15",
+  "submission_files": {
+    "Отчёт_Шагеева_РР.docx": "95f9a0ebeddfc632856a91c75cf119ae66711a482b9084c105fb3a4f602e3437",
+    "Отчёт_Шагеева_РР.pdf": "9f5540abb585ffe6dd731d9b1ab9f204a9519b104fc4528508af335cae42d48d",
+    "Шагеева_РР_Страховая_компания.odb": "e3020563f77b22dbaa27ad1e91218bc70ed685100e2ca76683718bfacaa70c51"
+  },
+  "original_mac_capture_hashes": {
+    "01_Схема_связей_Mac.png": "5daaff6b9b564de258714d51d2f1476163dfce554aa4e3a45e53899228afbcce",
+    "02_Конструктор_Client_Mac.png": "2cc2bf321ec94dbaf8e6e6d891069f7cf4556dca61a8e95df3ca99b74361fdab",
+    "03_Запрос_05_Mac.png": "35388549c548a5c491658ade30b826c51a079a17e978ecf0bd1c292099fb1ed0"
+  }
+}
